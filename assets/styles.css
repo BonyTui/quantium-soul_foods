@@ -20,9 +20,10 @@ h1 {
 
 /* Style the dropdown */
 #region-dropdown {
+    font-size: 40px;
     margin: 0;
     display: ruby-base-container;
-    width: 1%;
+    width: 100%;
     margin-bottom: 20px;
 }
 
