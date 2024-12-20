@@ -1,0 +1,55 @@
+/* Center the main content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    padding: 5px;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Style the dropdown */
+#region-dropdown {
+    margin: 0;
+    display: ruby-base-container;
+    width: 1%;
+    margin-bottom: 20px;
+}
+
+/* Style the graph */
+#sales-line-chart {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Add a nice container for the graph */
+.graph-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* Add a responsive layout */
+@media screen and (max-width: 768px) {
+    #region-dropdown {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}

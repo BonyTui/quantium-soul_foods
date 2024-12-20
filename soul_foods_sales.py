@@ -46,7 +46,9 @@ app.layout = html.Div([
         options=[{'label': region, 'value': region} for region in regions],
         value='all',
         style={'width': '50%'}
-    )
+    ),
+
+    html.Img(src="/assets/pink_morsel.jpg", style={'width': '15%', 'display': 'flex', 'margin-left': 'auto'})
 ])
 
 @app.callback(
